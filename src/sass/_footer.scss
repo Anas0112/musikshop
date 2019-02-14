@@ -1,0 +1,42 @@
+ul{
+	text-decoration: none;
+	list-style: none;
+	padding: 0;
+
+	li{
+		text-align: center;
+		margin-top: .5em;
+		color: $footerfontcolor;
+	}
+}
+.footer{
+	font-family: $font;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	
+	&__top{
+		padding: 1em 0 2em 0;
+		background-color: $footercolor;
+		display: flex;
+		justify-content: space-around;
+		
+		
+		&__h1{
+			color: $footertitle;
+		}
+	}
+
+	&__bot{
+		background-color: $footerbotcolor;
+
+		&__p{
+			text-align: center;
+			color: $footerfontcolor;
+			padding: 2em;
+			margin: 0;
+		}
+	}
+}
