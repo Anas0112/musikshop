@@ -9,6 +9,7 @@ body {
   background-color: #333;
   position: sticky;
   top: 0;
+  border-bottom: 3px solid white;
 }
 
 .header__topbar {
@@ -54,6 +55,26 @@ body {
 .header__topbar--right a {
   margin: 0 0.2em 0 0.2em;
   color: #ccc;
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  background-color: #222;
+}
+.navigation__list {
+  width: 35%;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+.navigation__listitem a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 body {
